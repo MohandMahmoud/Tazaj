@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Cart</title>
+    <link href="css/bootstrap.css" rel="stylesheet"> 
+    <link href="Style.css" rel="stylesheet"> 
+    <link rel="icon" href="Favicon.png">
+</head>
+<body>
+    <nav class="navbar navbar-inverse" style="background-color:dimgray;margin-top: -20px;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+           
+            <a class="navbar-brand" href="#"><img alt="Brand" src="logo.png"  width="160px" height="170px" style="padding-bottom: 160px ;"></a>
+          </div>
+         
+          <ul class="nav navbar-nav">
+            <li><a href="../homePage.html">home</a></li>
+          
+            <li class="active"><a href="../shop/Shop.html">|  Shop</a></li>
+            <li><a href="../AboutUs.html">|  About us</a></li>
+            <li><a href="../ContactUs.html">|  Contact us</a></li>
+            <li><a href="../SignUp.html"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+            </svg> login</a></li>
+            <li><a href="Cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg></a></li>
+            <li><a href="SignUp.html">LogOut</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="search">
+            </div>
+            <button type="submit" class="btn btn-danger">search</button>
+            </form>
+          </div>
+            </div>
+            </nav>
+  
+          </form>  
+          
+        </div>
+  
+      </nav>
+    <!------- cart items details ------->
+    <div class="cart-container">
+        <div class="cart-items">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <!-- 1st product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/tomatoes.jpg" alt="tomatoes">
+                            <p>Tomatoes - طماطم <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 20.00</td>
+                </tr>
+                <!-- 2nd product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/cauliflower.jpg" alt="Cauliflower">
+                            <p>Cauliflower - قرنبيط <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 32.00</td>
+                </tr>
+                <!-- 3rd product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/potatoes2.jpeg" alt="Potatoes">
+                            <p>Potatos - بطاطس  <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 15.00</td>
+                </tr>
+                <!-- 4th product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/eggplant.jpg" alt="Eggplant">
+                            <p>Eggplant - باذنجان  <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 20.00</td>
+                </tr>
+                <!-- 5th product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/cabbage.jpg" alt="Cabbage">
+                            <p>Cabbage - كرنب <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 30.00</td>
+                </tr>
+                <!-- 6th product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/onion.jpg" alt="Onion">
+                            <p>Onions - بصل  <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 35.00</td>
+                </tr>
+                <!-- 7th product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/zucchini.jpg" alt="Zucchini">
+                            <p>Zucchini - كوسة <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 20.00</td>
+                </tr>
+                <!-- 8th product -->
+                <tr>
+                    <td>
+                        <div class="item-info">
+                            <img src="shop_imgs/mulukhiyah2.jpg" alt="Mulukhiyah">
+                            <p>Mulukhiyah - ملوخية  <br>
+                            <a href="#">Remove</a>
+                            </p>
+
+                        </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>EGP 25.00</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Total price -->
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>EGP 197.00</td>
+                </tr>
+
+                <tr>
+                    <td>Delivery fee</td>
+                    <td>EGP 20.00</td>
+                </tr>
+
+                <tr>
+                    <td>Total</td>
+                    <td>EGP 217.00</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/bootstrap.js.js"></script>  
+</body>
+</html>

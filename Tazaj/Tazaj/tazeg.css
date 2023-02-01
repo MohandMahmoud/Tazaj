@@ -1,0 +1,119 @@
+.nave1{
+    margin-left: 50px;
+    
+}
+.nave1 :hover,.nave2:hover{
+    color:#1fe696;
+}
+.nave1:active,.nave2:active{
+    color:#1fe696;
+}
+.nave2{
+    margin-left: 150px;
+}
+
+.firstimage{
+    background-color:#88BF6F;
+    margin: auto;
+    margin-top: 70px;
+     width: 600px;
+     height: 900px; 
+}
+.firsttext{
+    letter-spacing: .03em;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: auto;
+    margin-top: 300px;
+    margin-right: 90px;
+    text-align: center;
+    font-size: 36px;
+    color:rgb(255, 255, 255) ;
+    line-height: 1.3em;
+}
+.secondtext{
+    letter-spacing: 0.03em;
+    font-size: 47px;
+    margin: auto;
+    margin-left: 80px;
+    color:rgb(255, 255, 255)  ;
+}
+.middletext{
+    font-size:70px;
+    letter-spacing: -0.05em;
+    text-align: center;
+    font-weight: bold;
+    line-height: normal;
+    color: rgb(7, 5, 5);
+
+}
+.place{
+    background-color: #88BF6F;
+    width: 700px;
+    height:200px;
+    margin: auto;
+}
+.delivery{
+    display: inline;
+    letter-spacing: 0.03em;
+    font-size: 30px;
+    
+    margin-left: 70px;
+    color:rgb(255, 255, 255)  ;
+}
+footer{
+    background-color: #88BF6F ;
+}
+.footertext{
+    color:rgb(255, 255, 255)  ;
+
+    letter-spacing: 0.03em;
+    font-size: 15px;
+}
+.contacttext{
+    color:rgb(255, 255, 255)  ;
+
+    letter-spacing: 0.03em;
+    text-decoration-style:solid;
+}
+.slider-size {
+    height: 200px; 
+  }
+@media (max-width : 767px)
+{
+    .slogan2{
+        margin-left: -70px;
+        margin-right: 50px;
+    }
+    .slogan{
+        margin-right: 0%;
+        margin-left: 50px;
+    }
+
+    .secondtext{
+        margin-top: 0px;
+        
+    }
+    .firsttext{
+        padding-top: 170px;
+    }
+    .offerz{
+        margin-left: 50px;
+    }
+    .offery{
+        margin-left: 50px;
+    }
+    .offerw{
+        margin-left: 50px;
+    }
+    /*.palntimage{
+        width: 150%;
+        margin: auto;
+    }*/
+    .plantino{
+       width: 490px;
+       height: 100px;
+       padding: auto;
+       margin-left: 20px;
+    }
+  
+}
